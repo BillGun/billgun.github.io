@@ -3,8 +3,8 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { usePathname } from 'next/navigation';
-import { GithubIcon, TwitterIcon } from "./icons";
-import Logo from "./logo";
+import { GithubIcon, TwitterIcon } from "./Icons";
+import Logo from "./Logo";
 
 const CustomLink = ({ href = '/', title = '', className = '' }) => {
   const pathname = usePathname();
