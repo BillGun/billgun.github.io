@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { usePathname } from 'next/navigation';
-import { GithubIcon, TwitterIcon } from "./Icons";
+import { GithubIcon, LinkedInIcon } from "./Icons";
 import Logo from "./Logo";
 
 const CustomLink = ({ href = '/', title = '', className = '' }) => {
@@ -29,10 +29,10 @@ export default function Navbar() {
       </nav>
       <Logo />
       <nav className="flex items-center justify-center flex-wrap">
-        <motion.a href='https://twitter.com' target="_blank" whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className="w-6 mr-3">
-          <TwitterIcon />
+        <motion.a href='https://www.linkedin.com/in/billgun/' target="_blank" whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className="w-6 mr-3">
+          <LinkedInIcon />
         </motion.a>
-        <motion.a href='https://twitter.com' target="_blank" whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className="w-6 ml-3">
+        <motion.a href='https://github.com/BillGun' target="_blank" whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className="w-6 ml-3">
           <GithubIcon />
         </motion.a>
       </nav>

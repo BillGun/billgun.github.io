@@ -1,12 +1,13 @@
 import AnimatedText from "@/components/AnimatedText"
 import { LinkArrow } from "@/components/Icons"
+import Layout from "@/components/Layout"
 import Image from "next/image"
 import Link from "next/link"
 import profilePic from "../../public/images/Reluna_No_Glasses.png"
 
 export default function Home() {
   return (
-    <main className={`w-full h-full inline-block z-0 bg-light p-32 pt-0`}>
+    <Layout className="pt-0">
       <div className="flex items-center justify-between w-full">
         <div className="w-1/2">
           <Image src={profilePic} alt='RC' className='w-full h-auto' />
@@ -30,6 +31,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-    </main>
+    </Layout>
   )
 }

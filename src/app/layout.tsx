@@ -1,3 +1,4 @@
+import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar';
 import type { Metadata } from 'next';
 import { Inter, Montserrat } from 'next/font/google';
@@ -23,6 +24,7 @@ export default function RootLayout({
         <main className="flex items-center text-dark w-full min-h-screen">
           {children}
         </main>
+        <Footer />
       </body>
     </html>
   )
