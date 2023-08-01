@@ -9,7 +9,7 @@ import lightBulb from "../../public/images/light-bulb.svg"
 
 export default function Home() {
   return (
-    <>
+    <main className="flex items-center text-dark w-full min-h-screen">
       <Layout className="pt-0">
         <div className="flex items-center justify-between w-full">
           <div className="w-1/2">
@@ -39,6 +39,6 @@ export default function Home() {
       <div className="absolute right-8 bottom-2 inline-block w-24">
         <Image src={lightBulb} alt="light-bulb" className="w-full h-auto" />
       </div>
-    </>
+    </main>
   )
 }
