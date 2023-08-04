@@ -2,6 +2,7 @@
 
 import AnimatedText from '@/components/AnimatedText'
 import Layout from '@/components/Layout'
+import Skills from '@/components/Skills'
 import { useInView, useMotionValue, useSpring } from 'framer-motion'
 import { Metadata } from 'next'
 import Image from 'next/image'
@@ -83,6 +84,8 @@ export default function AboutPage() {
             </div>
           </div>
         </div>
+
+        <Skills />
       </Layout>
     </main>
   )
