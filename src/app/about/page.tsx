@@ -1,6 +1,7 @@
 'use client'
 
 import AnimatedText from '@/components/AnimatedText'
+import Experiences from '@/components/Experiences'
 import Layout from '@/components/Layout'
 import Skills from '@/components/Skills'
 import { useInView, useMotionValue, useSpring } from 'framer-motion'
@@ -86,6 +87,7 @@ export default function AboutPage() {
         </div>
 
         <Skills />
+        <Experiences />
       </Layout>
     </main>
   )
