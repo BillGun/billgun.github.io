@@ -1,6 +1,7 @@
 'use client'
 
 import AnimatedText from '@/components/AnimatedText'
+import Educations from '@/components/Educations'
 import Experiences from '@/components/Experiences'
 import Layout from '@/components/Layout'
 import Skills from '@/components/Skills'
@@ -88,6 +89,7 @@ export default function AboutPage() {
 
         <Skills />
         <Experiences />
+        <Educations />
       </Layout>
     </main>
   )
