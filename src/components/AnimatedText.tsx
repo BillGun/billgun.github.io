@@ -26,7 +26,7 @@ const wordAnimation = {
 
 export default function AnimatedText({ text = '', className = '' }) {
   return (
-    <div className={`w-full mx-auto py-2 flex items-center justify-center text-center 
+    <div className={`w-full mx-auto py-2 sm:py-0 flex items-center justify-center text-center 
     overflow-hidden`}>
       <motion.h1 className={`inline-block w-full text-dark dark:text-light font-bold capitalize text-8xl ${className}`}
         variants={quoteAnimation} initial="initial" animate="animate">
