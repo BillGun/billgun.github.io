@@ -10,7 +10,7 @@ import lightBulb from "../../public/images/light-bulb.svg"
 export default function Home() {
   return (
     <main className="flex items-center text-dark dark:text-light w-full min-h-screen">
-      <Layout className="pt-0">
+      <Layout className="!pt-0">
         <div className="flex items-center justify-between w-full lg:flex-col">
           <div className="w-1/2">
             <Image src={profilePic} alt='RC' className='w-full h-auto' priority
