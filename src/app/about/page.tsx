@@ -1,42 +1,15 @@
-'use client'
-
+import { AnimatedNumbers } from '@/components/AnimatedNumbers'
 import AnimatedText from '@/components/AnimatedText'
 import Educations from '@/components/Educations'
 import Experiences from '@/components/Experiences'
 import Layout from '@/components/Layout'
 import Skills from '@/components/Skills'
-import { useInView, useMotionValue, useSpring } from 'framer-motion'
 import { Metadata } from 'next'
 import Image from 'next/image'
-import { useEffect, useRef } from 'react'
 import profilePic from '../../../public/images/reluna_chibi.png'
 
 export const metadata: Metadata = {
   title: 'Hehe',
-}
-
-const AnimatedNumbers = ({ value = 0 }) => {
-  const ref = useRef(null);
-  const motionValue = useMotionValue(0);
-  const springValue = useSpring(motionValue, { duration: 3000 });
-  const isInView = useInView(ref);
-
-  useEffect(() => {
-    if (isInView) {
-      motionValue.set(value);
-    }
-  }, [isInView, value, motionValue])
-
-  useEffect(() => {
-    springValue.on("change", (latest) => {
-      if (ref.current && latest.toFixed(0) <= value) {
-        ref.current.textContent = latest.toFixed(0);
-      }
-    });
-  }, [springValue, value])
-
-
-  return <span ref={ref}></span>
 }
 
 export default function AboutPage() {
