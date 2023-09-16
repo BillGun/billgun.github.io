@@ -2,6 +2,7 @@ import Footer from '@/components/Footer';
 import Navbar from '@/components/NavBar';
 import type { Metadata } from 'next';
 import { Inter, Montserrat } from 'next/font/google';
+import Script from 'next/script';
 import './globals.css';
 
 const inter = Inter({ subsets: ['latin'] })
@@ -19,10 +20,17 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={montserrat.className}>
+      <body className={`${montserrat.className} font-mont bg-light dark:bg-dark w-full min-h-screen`}>
         <Navbar />
         {children}
         <Footer />
+        <Script id='theme-switcher' strategy="beforeInteractive">
+          {`if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+          document.documentElement.classList.add('dark')
+        } else {
+          document.documentElement.classList.remove('dark')
+        }`}
+        </Script>
       </body>
     </html >
   )

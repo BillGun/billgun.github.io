@@ -10,10 +10,10 @@ const Education = ({ type = '', time = '', place = '', info = '' }) => {
       <LiIcon reference={ref} />
       <motion.div initial={{ y: 50 }} whileInView={{ y: 0 }} transition={{ duration: 0.5, type: "spring" }}>
         <h3 className="capitalize font-bold text-2xl">{type}</h3>
-        <span className="capitalize font-medium text-dark/75">
+        <span className="capitalize font-medium text-dark/75 dark:text-light/75">
           {time} | {place}
         </span>
-        <p className="font-medium w-full">
+        <p className="font-medium w-full md:text-sm">
           {info}
         </p>
       </motion.div>
@@ -27,11 +27,11 @@ const Educations = () => {
     offset: ["start end", "center start"]
   });
   return (
-    <div className="my-64">
-      <h2 className="font-bold text-8xl mb-32 w-full text-center">Experience</h2>
-      <div ref={ref} className="w-[75%] mx-auto relative">
-        <motion.div style={{ scaleY: scrollYProgress }} className="absolute left-9 top-0 w-[4px] h-full bg-dark origin-top" />
-        <ul className="w-full flex flex-col items-start justify-between ml-4">
+    <div className="my-64 md:my-32">
+      <h2 className="font-bold text-8xl mb-16 w-full text-center lg:text-7xl lg:mb-8 sm:text-6xl xs:text-4xl">Educations</h2>
+      <div ref={ref} className="w-[75%] mx-auto relative lg:w-[90%] md:w-full">
+        <motion.div style={{ scaleY: scrollYProgress }} className="absolute left-9 top-0 w-[4px] h-full bg-dark dark:bg-light origin-top md:w-[2px] md:left-[30px] xs:left-[20px]" />
+        <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Education
             type="Software Engineer"
             time="Google"
