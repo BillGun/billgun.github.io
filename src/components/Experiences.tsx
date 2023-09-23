@@ -35,36 +35,20 @@ const Experiences = () => {
         <motion.div style={{ scaleY: scrollYProgress }} className="absolute left-9 top-0 w-[4px] h-full bg-dark dark:bg-light origin-top md:w-[2px] md:left-[30px] xs:left-[20px]" />
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Experience
-            position="Software Engineer"
-            company="Google"
-            companyLink="www.google.com"
-            time="2022-Present"
-            address="Mountain View, CA"
-            work="Worked on a team responsible for developing new features for Google's search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization."
+            position="Technical Lead"
+            company="Ifabula"
+            companyLink="https://ifabula.com/"
+            time="Jan 2020 - Jan 2023"
+            address="Tangerang, Banten, Indonesia"
+            work="Analyze the application business process and flow, designing and translating business requirement into technical solution, manage development plan and monitor development process to make sure successful project delivery and help to manage the project delivery strategies"
           />
           <Experience
-            position="Software Engineer"
-            company="Google"
-            companyLink="www.google.com"
-            time="2022-Present"
-            address="Mountain View, CA"
-            work="Worked on a team responsible for developing new features for Google's search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization."
-          />
-          <Experience
-            position="Software Engineer"
-            company="Google"
-            companyLink="www.google.com"
-            time="2022-Present"
-            address="Mountain View, CA"
-            work="Worked on a team responsible for developing new features for Google's search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization."
-          />
-          <Experience
-            position="Software Engineer"
-            company="Google"
-            companyLink="www.google.com"
-            time="2022-Present"
-            address="Mountain View, CA"
-            work="Worked on a team responsible for developing new features for Google's search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization."
+            position="Software Developer"
+            company="Ifabula"
+            companyLink="https://ifabula.com/"
+            time="Nov 2018 - Jan 2023"
+            address="Tangerang, Banten, Indonesia"
+            work="Application development (mobile/web) based on user and business requirement, unit testing in development process, bug fixing and support in maintenance work and report progress to Technical Lead"
           />
         </ul>
       </div>

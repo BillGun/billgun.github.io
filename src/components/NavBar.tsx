@@ -106,7 +106,7 @@ export default function Navbar() {
         null
       }
 
-      <div className="absolute left-[50%] top-2 translate-x-[50%] z-10">
+      <div className="absolute left-[50%] top-2 translate-x-[-50%] z-10">
         <Logo />
       </div>
     </header >

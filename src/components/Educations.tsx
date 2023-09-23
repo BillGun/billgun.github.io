@@ -35,22 +35,10 @@ const Educations = () => {
         <motion.div style={{ scaleY: scrollYProgress }} className="absolute left-9 top-0 w-[4px] h-full bg-dark dark:bg-light origin-top md:w-[2px] md:left-[30px] xs:left-[20px]" />
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Education
-            type="Software Engineer"
-            time="Google"
-            place="www.google.com"
-            info="Worked on a team responsible for developing new features for Google's search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization."
-          />
-          <Education
-            type="Software Engineer"
-            time="Google"
-            place="www.google.com"
-            info="Worked on a team responsible for developing new features for Google's search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization."
-          />
-          <Education
-            type="Software Engineer"
-            time="Google"
-            place="www.google.com"
-            info="Worked on a team responsible for developing new features for Google's search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization."
+            type="Bachelor of Computer Science in Informatics"
+            time="2014-2018"
+            place="Universitas Tanjungpura"
+            info="Completed a bachelor's project on machine learning, developing a web-based application for sentiment analysis. Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Natural Language Processing."
           />
         </ul>
       </div>
