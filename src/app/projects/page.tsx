@@ -9,7 +9,7 @@ import Link from 'next/link'
 import profilePic from "../../../public/images/Reluna_No_Glasses.png"
 
 export const metadata: Metadata = {
-  title: 'Hehexd',
+  title: 'Projects | BillGun',
 }
 const FeaturedProject = ({ type, title, summary, img, link, github }: { type: string, title: string, summary: string, img: string | StaticImport, link: Url, github: Url }) => {
   return (
@@ -64,6 +64,8 @@ const page = () => {
     <main className='w-full mb-16 flex flex-col items-center justify-center dark:text-light'>
       <Layout className='pt-16'>
         <AnimatedText text='Imagination Trumps Knowledge!' className='mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8' />
+        <h1 className='text-4xl sm:text-3xl xs:text-2xl sm:mb-8 text-center'>Projects on development. Stay tuned!</h1>
+        <h1 className='mb-16 text-2xl sm:text-xl xs:text-lg sm:mb-8 text-center'>Placeholder project cards are down there</h1>
         <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
           <div className="col-span-12">
             <FeaturedProject

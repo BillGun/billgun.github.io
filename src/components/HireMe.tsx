@@ -8,7 +8,7 @@ export default function HireMe() {
         <CircularText className={"fill-dark animate-spin-slow dark:fill-light"} />
         <Link href="mailto:privatebillgun@gmail.com"
           className="flex items-center justify-center absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2
-           bg-dark text-light shadow-md border border-solid border-dark w-32 h-32 md:text-[10px] md:w-16 md:h-16 font-medium rounded-full hover:bg-light hover:text-dark dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light hover:dark:border-light">
+           bg-dark text-light shadow-md border border-solid border-dark w-20 h-20 md:text-[10px] md:w-16 md:h-16 font-medium rounded-full hover:bg-light hover:text-dark dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light hover:dark:border-light">
           Hire Me
         </Link>
       </div>

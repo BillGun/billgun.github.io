@@ -9,7 +9,7 @@ import Image from 'next/image'
 import profilePic from '../../../public/images/reluna_chibi.png'
 
 export const metadata: Metadata = {
-  title: 'Hehe',
+  title: 'About | BillGun',
 }
 
 export default function AboutPage() {
@@ -21,13 +21,18 @@ export default function AboutPage() {
           <div className='col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8'>
             <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>Biography</h2>
             <p className='font-medium'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam venenatis mollis hendrerit. Ut tincidunt mi eget rutrum ornare. Maecenas venenatis libero metus. Etiam feugiat, odio vel pharetra pharetra, enim libero sollicitudin erat, et accumsan leo tellus vitae magna. Maecenas ligula ex, hendrerit sed ipsum non, volutpat fringilla metus. Curabitur eu mauris lorem. Sed lobortis hendrerit gravida.
+              Hello, I am BillGun, a web developer and UI/UX designer with a passion for creating beautiful, functional,
+              and user-centered digital experiences. With 4 years of experience in the field. I am always looking for
+              new and innovative ways to bring my clients&apos; visions to life.
             </p>
             <p className='font-medium my-4' >
-              Duis semper quam et tempor varius. Praesent a nisi eget neque pulvinar tincidunt et vitae lacus. Etiam vitae nulla sit amet mauris ultricies facilisis id vel magna. Vivamus ut enim commodo, pellentesque mi nec, aliquam est. Sed rhoncus eros at semper commodo. Sed viverra vulputate justo in tempor. Vestibulum id lectus quam. Sed scelerisque ex eu tempus sollicitudin.
+              I believe that design is about more than just making things look pretty – it&apos;s about solving problems and
+              creating intuitive, enjoyable experiences for users.
             </p>
             <p className='font-medium'>
-              Vestibulum sed nisi dui. Donec sit amet sagittis enim. Proin pellentesque, ipsum quis molestie sodales, lacus risus malesuada nulla, ut auctor ex nibh id ex. Sed ullamcorper nisi in orci rutrum molestie. Quisque laoreet eget ipsum vulputate egestas. Aenean eu felis in enim mollis suscipit. Maecenas scelerisque tempus ligula at rutrum. Vestibulum non ligula tempus, porta eros a, consectetur libero.
+              Whether I&apos;m working on a website, mobile app, or
+              other digital product, I bring my commitment to design excellence and user-centered thinking to
+              every project I work on. I look forward to the opportunity to bring my skills and passion to your next project.
             </p>
           </div>
 
@@ -39,28 +44,28 @@ export default function AboutPage() {
           <div className='col-span-2 flex flex-col items-end justify-between xl:col-span-8 xl:flex-row xl:items-center md:order-3'>
             <div className='flex flex-col items-end justify-center xl:items-center'>
               <span className='inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl'>
-                <AnimatedNumbers value={50} />+
+                <AnimatedNumbers value={4} />+
               </span>
               <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75  xl:text-center md:text-lg sm:text-base xs:text-sm '>
-                satisfied clients
+                years of experience
               </h2>
             </div>
 
             <div className='flex flex-col items-end justify-center xl:items-center'>
               <span className='inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl'>
-                <AnimatedNumbers value={50} />+
+                <AnimatedNumbers value={2} />+
               </span>
               <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75  xl:text-center md:text-lg sm:text-base xs:text-sm '>
-                satisfied clients
+                projects completed
               </h2>
             </div>
 
             <div className='flex flex-col items-end justify-center xl:items-center'>
               <span className='inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl'>
-                <AnimatedNumbers value={50} />+
+                <AnimatedNumbers value={5} />+
               </span>
               <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75  xl:text-center md:text-lg sm:text-base xs:text-sm '>
-                satisfied clients
+                certifications acquired
               </h2>
             </div>
           </div>
