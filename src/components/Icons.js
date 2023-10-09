@@ -946,7 +946,6 @@ export const TailwindIcon = ({ className = '', ...rest }) => {
   )
 }
 
-
 export const TypescriptIcon = ({ className = '', ...rest }) => {
   return (
     <svg
