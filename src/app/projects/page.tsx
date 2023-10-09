@@ -7,6 +7,7 @@ import { Url } from 'next/dist/shared/lib/router/router'
 import Image from 'next/image'
 import Link from 'next/link'
 import profilePic from "../../../public/images/Reluna_No_Glasses.png"
+import pikadex from "../../../public/images/pikadex.png"
 
 export const metadata: Metadata = {
   title: 'Projects | BillGun',
@@ -70,13 +71,12 @@ const page = () => {
           <div className="col-span-12">
             <FeaturedProject
               type='Featured Project'
-              title='Crypto Screener Application'
-              summary='A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-              It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-              local currency.'
-              img={profilePic}
-              link='https://www.youtube.com/'
-              github='https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg'
+              title='Pikadex'
+              summary='A feature-rich Pokemon Encylopedia App using NextJS, Tailwind CSS, Typescript, FramerMotion and FetchAPI. 
+              It shows detail regarding almost all the pokemon.'
+              img={pikadex}
+              link='https://pikadex-blush.vercel.app/'
+              github='https://github.com/BillGun/pikadex'
             />
           </div>
           <div className="col-span-6 sm:col-span-12">
